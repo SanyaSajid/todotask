@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #0d0714;
+}
+
+.container {
+    width: 500px;
+    height: 550px;
+    background: #1d1825;
+    margin: 68px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstSec {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.secSec {
+    max-height: 45%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font: 12px;
+    font-weight: 400;
+    overflow-y: auto;
+}
+.thirdSec{
+    max-height: 45%;
+    color: white;
+    font: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    margin-bottom: 25px;
+}
+::-webkit-scrollbar-thumb {
+background: #9e78cf; 
+}
+::-webkit-scrollbar {
+width: 10px;
+}
+::-webkit-scrollbar-track {
+background: #15101c; 
+}
+
+input[type="text"] {
+    width: 85%;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 1px solid #9e78cf;
+    border-radius: 12px;
+}
+
+.plus {
+    width: 40px;
+    height: 40px;
+    background: #9e78cf;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.todocard {
+    width: 100%;
+    background: #15101c;
+    height: 70px;
+    border-radius: 12px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.wrapper {
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.cardtxt {
+    color: #9E78CF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.todoicon {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todotitle {
+    width: 80%;
+    padding-left: 10px;
+}
+.carddonetxt{
+    color: #78CFB0;
+}
+
+input{
+    color: #9e78cf;
+}
+.dltbtn{
+    cursor: pointer;
+}
